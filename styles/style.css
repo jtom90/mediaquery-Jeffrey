@@ -1,0 +1,104 @@
+body {
+	background-color:black;
+}
+ul {
+	display:block;
+	float:right;
+}
+ul li {
+	list-style-type:none;
+	display:inline-block;
+	padding:15px;
+}
+ul li a {
+	color:#FFF;
+	text-decoration:none;
+	font-size:25px;
+}
+.citygif , .chitown, .cali {
+	width:100%;
+	height:400px;
+}
+h2 {
+	font-size: 30px;
+	text-align:center;
+	color:#FFF;
+}
+p {
+	color:#FFF;
+}
+/*apple ipad*/
+@media screen and (max-width:768px) {
+	#navigation {
+	width:100%;
+	height:50px;
+}
+	.fa-laptop {
+	display:block;
+	float:right;
+	margin:10px;
+	cursor:pointer;
+	background-color:green;
+}
+	ul {
+    display: none;
+    width: 100%;
+    border-top: 1px solid black;
+    }
+	ul li {
+     width: 100%;
+     border-bottom: 1px solid lightblue;
+     display:inline-block;
+     box-sizing:border-box;
+    }
+	ul li a {
+	float:right;
+	margin-right:20px;
+}
+	p {
+		color:green;
+	}
+	h2 {
+		font-family:cursive;
+	}
+
+}
+/*mobile*/
+@media screen and (max-device-width: 480px) {
+#navigation {
+	width:100%;
+	height:50px;
+}
+.fa-laptop {
+	display:block;
+	float:right;
+	margin:10px;
+	cursor:pointer;
+	background-color:lightblue;
+}
+ul {
+    display: none;
+    width: 100%;
+    border-top: 1px solid black;
+    }
+ul li {
+      width: 100%;
+      border-bottom: 1px solid lightblue;
+      display:inline-block;
+      box-sizing:border-box;
+    }
+ul li a {
+	float:right;
+	margin-right:20px;
+}
+p {
+	color:lightblue;
+}
+.citygif , .chitown, .cali {
+	width:100%;
+	height:100px;
+}
+h2 {
+	font-family:Courier;
+}
+}
